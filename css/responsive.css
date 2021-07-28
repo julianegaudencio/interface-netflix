@@ -14,7 +14,7 @@
         margin-left: -300px;
     }
 
-    header nav .version-mobile {
+    header .version-mobile {
         display: inline;
     }
 
@@ -23,7 +23,7 @@
     }
 
     header nav a {
-       margin: 0 25px ;
+       margin: 0 20px ;
     }
 
     .version-desktop {
@@ -68,10 +68,9 @@
     .botao {
         font-size: 15px;
         border-radius: 2px;
-        padding: 5px 13px;
+        padding: 8px 14px;
         margin-top: 50px;
-        margin-left: 5px;
-        margin-right: 0;
+        margin-left: -50px;
     }
 
     .botao-cinza {
