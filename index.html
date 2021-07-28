@@ -4,8 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/responsive.css">
 
     <!-- owl css -->
     <link rel="stylesheet" href="css/owl/owl.carousel.min.css">
@@ -23,13 +25,21 @@
     <header>
         <div class="container">
             <img class="logo" src="img/logo-netflix.png" alt="">
-            <nav>
+
+            <img class="logo logo-mobile" src="img/logo-netflix-mobile.png" alt="">
+            <nav class="version-desktop">
                 <a href="#">Início</a>
                 <a href="#">Séries</a>
                 <a href="#">Filmes</a>
                 <a href="#">Bombando</a>
                 <a href="#">Minha lista</a>
                 <a href="#">Assista de novo</a>
+            </nav>
+
+            <nav class="version-mobile">
+                <a href="#">Séries</a>
+                <a href="#">Filmes</a>
+                <a href="#">Categorias</a>
             </nav>
         </div>
     </header>
@@ -38,16 +48,23 @@
         <div class="serie-principal">
             <div class="container"> 
                 <img class="titulo" src="img/logo-gambit.png" alt="">
+                <img class="titulo-mobile" src="img/logo-gambit-mobile.png" alt="">
                 <p class="descricao">Durante a Guerra Fria, em um orfanato do Kentucky, uma garota prodígio do xadrez luta contra o vício para se tornar a número um do mundo.</p>
             </div>
-            <div>
+            <div class="botoes">      
+                <button role="button" class="botao-mobile botao botao-branco">
+                    <i class="fas fa-plus"></i>
+                    Minha lista
+                </button>
+
                 <button role="button" class="botao botao-branco">
                     <i class="fas fa-play"></i>
                     Assistir
                 </button>
+                
                 <button role="button" class="botao botao-cinza">
                     <i class="fas fa-info-circle"></i>
-                    Mais informações
+                    Saiba mais
                 </button>
             </div>   
         </div>

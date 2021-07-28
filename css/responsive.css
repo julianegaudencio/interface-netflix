@@ -1,0 +1,87 @@
+@media screen and (max-width: 700px) {
+    header .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    header .logo {
+        display: none;
+    }
+
+    header .logo-mobile {
+        display: flex;
+        width: 50px;
+        margin-left: -300px;
+    }
+
+    header nav .version-mobile {
+        display: flex;
+    }
+
+    header nav {
+        margin-left: 0px;
+    }
+
+    header nav a {
+       margin: 0 25px ;
+    }
+
+    .version-desktop {
+        display: none;
+    }
+
+    .titulo {
+        display: none;
+    }
+
+    .titulo-mobile {
+        display: inline;
+        justify-content: center;
+        width: 300px;
+
+        margin-top: 450px;
+        margin-left: 30px;
+    
+    }
+
+    .serie-principal {
+        background: linear-gradient(rgba(0, 0, 0, 0.103), rgba(0, 0, 0, 0.103) 100%), url('../img/capa-gambit-mobile.jpg') center;
+        background-size: cover;
+        margin-top: -100px;
+        height: 600px;
+        
+    }
+
+    .descricao {
+        display: none;
+    }
+
+    .descricao-mobile {
+        margin-bottom: 470px;
+    }
+
+    .botoes {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .botao {
+        font-size: 15px;
+        padding: 7px 10px;
+        margin-top: 50px;
+        margin-left: 5px;
+        margin-right: 0;
+    }
+
+    .botao-cinza {
+        background-color: #61616100;
+        color: #ffffff;
+    }
+
+    .botao-mobile {
+        display: inline;
+    }
+    
+ 
+  
+}

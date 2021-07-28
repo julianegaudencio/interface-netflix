@@ -29,12 +29,16 @@ header .logo {
     margin-left: 50px;
 }
 
+header .logo-mobile {
+    display: none;
+}
+
 header nav {
     margin-left: 40px;
 }
 
 header nav a {
-    font-size: 13.3px;
+    font-size: 15px;
     text-decoration: none;
     color: rgb(243, 243, 243);
 
@@ -44,6 +48,10 @@ header nav a {
 
 header nav a:hover {
     color: rgb(156, 156, 156);
+}
+
+header nav .version-mobile {
+    display: none;
 }
 
 /*conteúdo série principal*/
@@ -64,6 +72,10 @@ header nav a:hover {
 
     margin-top: 200px;
     margin-left: 50px;
+}
+
+.titulo-mobile {
+    display: none;
 }
 
 .descricao {
@@ -88,6 +100,12 @@ header nav a:hover {
     padding: 12px 25px;
     margin-left: 50px;
     margin-right: -45px;
+}
+
+.botao-mobile {
+    display: none;
+    background-color: #61616100;
+    color: #ffffff;
 }
 
 .botao i {
